@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:background="@color/white"
+android:clickable="true">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:weightSum="2"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/noteName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_weight="0.5"
+            android:hint="Title"
+            android:textStyle="bold"
+            android:background="@null"
+            android:layout_marginVertical="4dp"
+
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/noteDescription"
+            android:layout_width="match_parent"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:hint="Description"
+            android:background="@null"
+            android:layout_marginVertical="8dp"
+            android:layout_below="@+id/noteName"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="Add Note"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

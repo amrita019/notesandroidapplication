@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_title">Note it down!</string>
+    <string name="login_sub_title">Keep a track of things that really matters. You can add notes and analyse them afterwards.</string>
+    <string name="noteName">Name</string>
+    <string name="noteDescription">Description</string>
+    <string name="noNoteFound">We can\'t seem to find any notes for you. \n Create one by clicking on the \'+\' icon below</string>
+    <string name="welcomeUserMessage">Here is, what\'s on your plate!</string>
+</resources>
